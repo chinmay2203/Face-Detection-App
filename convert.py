@@ -11,4 +11,4 @@ tflite_model = converter.convert()
 with open('face_model.tflite', 'wb') as f:
     f.write(tflite_model)
 
-print("Navin face_model.tflite file tayaar zali!")
+print("Model Is Ready")
